@@ -1,4 +1,4 @@
-# 2025 Table Contest Submission
+# 2025 Posit Table Contest submission
 
 **Estimating NRL finals probabilities with Monte Carlo simulation**
 
