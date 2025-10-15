@@ -2,7 +2,7 @@
 
 **Estimating NRL finals probabilities with Monte Carlo simulation**
 
-My submission is from a sports analytics side project I did earlier in the year that estimated the probability of National Rugby League (NRL) teams qualifying for the finals based on how many matches they won in the regular season. I simulated 10,000 seasons using a Monte Carlo approach. The full post and methodology is available [on my site](https://mitchhenderson.dev/posts/2025-01-18-how-many-wins-do-nrl-teams-need-to-make-the-finals/).
+My submission is from a sports analytics side project I did earlier in the year that estimated the probability of National Rugby League (NRL) teams qualifying for the finals based on how many matches they won during the regular season. I simulated 10,000 seasons using a Monte Carlo approach. The full post and methodology is available [on my site](https://mitchhenderson.dev/posts/2025-01-18-how-many-wins-do-nrl-teams-need-to-make-the-finals/).
 
 ![NRL Finals Probability Table](table.png)
 
