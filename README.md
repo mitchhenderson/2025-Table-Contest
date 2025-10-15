@@ -1,8 +1,6 @@
-# NRL Finals Probability Analysis
+# 2025 Table Contest Submission - Estimating NRL finals probabilities with Monte Carlo simulation
 
-**2025 Table Contest Submission**
-
-My table is from a sports analytics side project I did earlier in the year that estimated the probability of National Rugby League (NRL) teams qualifying for the finals based on how many matches they won in the regular season. I simulated 10,000 seasons using a Monte Carlo approach. The full post and methodology is available [on my site](https://mitchhenderson.dev/posts/2025-01-18-how-many-wins-do-nrl-teams-need-to-make-the-finals/).
+My submission is from a sports analytics side project I did earlier in the year that estimated the probability of National Rugby League (NRL) teams qualifying for the finals based on how many matches they won in the regular season. I simulated 10,000 seasons using a Monte Carlo approach. The full post and methodology is available [on my site](https://mitchhenderson.dev/posts/2025-01-18-how-many-wins-do-nrl-teams-need-to-make-the-finals/).
 
 ![NRL Finals Probability Table](table.png)
 
@@ -20,8 +18,8 @@ My table is from a sports analytics side project I did earlier in the year that 
 ## Code Structure
 
 ```
-create_table.R          # Main analysis and table creation script
-nrl_simulated_finals_probabilities.csv  # Simulation data
+create_table.R          # Table creation script
+nrl_simulated_finals_probabilities.csv  # Data
 table.html             # Generated HTML output
 table.png              # Static image version
 renv.lock              # Package management
@@ -56,7 +54,7 @@ This project uses `renv` for package management to ensure consistent results acr
    ```
    This will automatically install all required packages (gt, gtExtras, tidyverse, etc.) at the exact versions I used.
 
-3. **Run the analysis**
+3. **Run the script**
    ```r
    source("create_table.R")
    ```
@@ -65,7 +63,7 @@ This project uses `renv` for package management to ensure consistent results acr
 
 After running the script, **`table.html`** will be generated containing an HTML version of the table.
 
-The table object will also be available in your R environment and will display in the Viewer pane of Positron or RStudio.
+The `table` object will also be available in your R environment and display in the Viewer pane of Positron or RStudio.
 
 ---
 
